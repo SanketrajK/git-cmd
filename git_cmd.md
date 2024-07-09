@@ -15,4 +15,7 @@ git branch :- This command lists all the branches in the current repository.
 git branch <branch-name> :- This command will create a new branch with the given name.
 git checkout -b <branch-name> :- This command will create a new branch and switch to it
 git checkout <branch-name> :- This command will switch to the given branch.
-git switch <branch-name> - This command switches to the given branch
+git switch <branch-name> :- This command switches to the given branch
+git merge <branch-name> :- This command merges the given branch into the main(or where you want to merge) branch.
+git branch -m <old-branch-name> <new-branch-name> :- You can rename a branch using the given command
+git branch -d <branch-name> :- This command will delete the given branch.
